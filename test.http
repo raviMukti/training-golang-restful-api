@@ -1,0 +1,24 @@
+### Create Category
+POST http://localhost:3000/api/categories
+Accept: application/json
+Content-Type: application/json
+{
+    "name" : "Elektronik"
+}
+
+### Find All
+GET http://localhost:3000/api/categories
+Accept: application/json
+
+### Find By Id
+GET http://localhost:3000/api/categories/1
+Accept: application/json
+
+### Update Category By Id
+PUT http://localhost:3000/api/categories/1
+Accept: application/json
+
+Content-Type: application/json
+{
+    "name" : "Gadget"
+}
